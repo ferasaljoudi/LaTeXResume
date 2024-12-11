@@ -20,3 +20,4 @@ This project is a professionally formatted resume created using LaTeX in Overlea
 - Consistent formatting such as maintaining uniform spacing, font sizes, and alignment for a polished appearance.
 - Designed for easy modification and reuse across different applications.
 - Produces clean PDFs without hidden formatting or artifacts.
+
