@@ -21,3 +21,9 @@ This project is a professionally formatted resume created using LaTeX in Overlea
 - Designed for easy modification and reuse across different applications.
 - Produces clean PDFs without hidden formatting or artifacts.
 
+<br>
+<div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/resources.svg" alt="Resources" style="width: 100%"></a>
+</div>
+
+### [FerasAljoudiResume.pdf](./FerasAljoudiResume.pdf) shows the output PDF of the `LaTexResume.tex`
