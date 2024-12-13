@@ -11,6 +11,27 @@ This project is a professionally formatted resume created using LaTeX in Overlea
 
 <br>
 <div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
+</div>
+<br>
+
+<div align = "center">
+<table>
+  <tr>
+    <td>
+      <a href="https://colab.google/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Middle/overleaf.svg" alt="Overleaf"></a>
+      <br>
+    </td>
+    <td>
+      <a href="https://www.jetbrains.com/pycharm/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Languages/Right/latex.svg" alt="LaTex"></a>
+      <br>
+    </td>
+  </tr>
+</table>
+</div>
+
+<br>
+<div style="width: 100%;">
     <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/features.svg" alt="Features" style="width: 100%"></a>
 </div>
 <br>
