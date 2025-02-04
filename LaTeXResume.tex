@@ -65,12 +65,21 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
+\newcommand{\resumeItemBold}[2]{\resumeItem{\textbf{#1}: #2}}
+
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\makebox[1.001\textwidth][r]{Feras Aljoudi-\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESUME STARTS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -86,7 +95,7 @@
     \href{https://www.linkedin.com/in/feras-aljoudi-79830b2a2/}{\underline{LinkedIn}} $|$ \href{https://github.com/ferasaljoudi}{\underline{GitHub}}
     \\ \vspace{2pt}
     \small Address: Regina, SK, Canada
-    \\ \vspace{-2pt}
+    \\ \vspace{-4pt}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Experience %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,13 +149,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Skills}
-    \resumeSubHeadingListStart
-        \item\textbf{Programming:}{ C++, C, C\#, Python, Java, HTML, CSS, React, Vue, JavaScript, PHP, TypeScript, ShellScript, ARM and MIPS Assembly, SQL, MySQL, Firebase, VHDL}
-        \item\textbf{Web development:}{ WordPress, Figma}
-        \item\textbf{Machine learning:}{ TensorFlow, Keras, NumPy, Pandas, Matplotlib, OpenCV}
-        \item\textbf{Modeling programs:}{ Implement the best solution based on the needs by Solid Edge}
-        \item\textbf{Other skills:}{ Management experience, computer experience, computer experience, technical documentation, business analysis, vendor communication, team supervision, product management}
-    \resumeSubHeadingListEnd
+        \resumeItemListStart
+            \resumeItemBold{Programming}{C++, C, C\#, Python, Java, HTML, CSS, React, Vue, JavaScript, PHP, TypeScript, ShellScript, ARM and MIPS Assembly, SQL, MySQL, Firebase, VHDL}
+            \resumeItemBold{Web development}{WordPress, Figma}
+            \resumeItemBold{Machine learning}{TensorFlow, Keras, NumPy, Pandas, Matplotlib, OpenCV}
+            \resumeItemBold{Modeling programs}{Implement the best solution based on the needs by Solid Edge}
+            \resumeItemBold{Other skills}{Management experience, computer experience, technical documentation, business analysis, vendor communication, team supervision, product management}
+        \resumeItemListEnd
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Projects %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
